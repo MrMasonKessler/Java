@@ -1,0 +1,7 @@
+The boxes that have bee open the movecount the last move made the actual board 
+Is valid if the get symbol isn't the bomb and if the box isn't already uncovered.
+Get row * get column -moveCount - minecount = zero
+
+We need an array of the successors.
+If it is a bomb we backtrack if not move to the next one.
+If 0,0 is a bomb
